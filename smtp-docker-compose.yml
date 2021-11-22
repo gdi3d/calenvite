@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  app_backend:
+    image: calenvite_svc:latest
+    ports:
+      - "8080:8000"
+    environment:
+      - CALENVITE_SVC_SMTP_HOST=
+      - CALENVITE_SVC_SMTP_PORT=587
+      - CALENVITE_SVC_SMTP_USER=
+      - CALENVITE_SVC_SMTP_PASSWORD=
+      - CALENVITE_SVC_EMAIL_SENDER_ADDRESS=
+      - CALENVITE_SVC_SEND_USING=SMTP
+      - CALENVITE_SVC_PORT=8000

@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  app_backend:
+    image: calenvite_svc:latest
+    ports:
+      - "8080:8000"
+    environment:
+      - CALENVITE_SVC_MAILGUN_DOMAIN=
+      - CALENVITE_SVC_MAILGUN_KEY=
+      - CALENVITE_SVC_EMAIL_SENDER_ADDRESS=
+      - CALENVITE_SVC_SEND_USING=MAILGUN
+      - CALENVITE_SVC_PORT=8000
