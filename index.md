@@ -2,7 +2,6 @@
 
 A simple microservice designed in [GO](https://golang.org/) using [Echo Microframework](https://echo.labstack.com/) for sending emails and/or calendar invitations to users.
 
-
 # Features
 
 - Send emails using your Mailgun API credentials.
