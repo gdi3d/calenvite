@@ -2,6 +2,7 @@
 
 A simple microservice designed in [GO](https://golang.org/) using [Echo Microframework](https://echo.labstack.com/) for sending emails and/or calendar invitations to users.
 
+
 # Features
 
 - Send emails using your Mailgun API credentials.
@@ -107,7 +108,7 @@ A healthcheck endpoint to test if the service is up and running and a valid conf
 
 ### Request Example
 
-`curl --location --request GET 'http://127.0.0.1:8000/healthcheck'`
+`curl --location --request GET 'http://127.0.0.1:8080/healthcheck'`
 
 ### Responses
 
