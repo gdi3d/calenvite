@@ -1,7 +1,5 @@
 package main
 
-// Docs of references
-// https://www.alexedwards.net/blog/organising-database-access
 import (
 	"calenvite/models"
 	"context"
