@@ -1,8 +1,3 @@
-<meta property="og:title" content="A tiny Microservice for sending emails and/or calendar invitations to users" />
-<meta property="og:description" content="A simple microservice designed in Go using Echo Microframework for sending emails and/or calendar invitations to users.">
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://gdi3d.github.io/calenvite/" />
-<link rel="canonical" href="https://gdi3d.github.io/calenvite/" />
 <meta property="og:image" content="https://gdi3d.github.io/calenvite/calenvite-social-share.jpg" />
 
 # Calenvite
