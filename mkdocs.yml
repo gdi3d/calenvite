@@ -6,6 +6,3 @@ site_url: https://gdi3d.github.io/calenvite
 
 nav:
   - Home: index.md
-  - Installation: Installation.md
-  - Healtcheck Endpoint: api-healtcheck.md
-  - Invite Endpoint: api-invite.md
