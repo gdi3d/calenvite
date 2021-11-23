@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="A simple microservice designed in Go using Echo Microframework for sending emails and/or calendar invitations to users." />
+        <meta name="author" content="Adriano Galello" />
+        <title>Calenvite | A tiny Microservice for sending emails and/or calendar invitations to users</title>
+        <meta property="og:title" content="Calenvite" />
+        <meta property="og:description" content="A tiny Microservice for sending emails and/or calendar invitations to users written in go">
+        <meta property="og:url" content="https://gdi3d.github.io/calenvite/" />
+        <link rel="canonical" href="https://gdi3d.github.io/calenvite/" />
+        <meta property="og:image" content="https://github.com/gdi3d/calenvite/raw/gh-pages/calenvite-social-share.jpg" />
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.svg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Setup Google Analytics -->
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-64542072-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Calenvite</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://github.com/gdi3d/calenvite">Github</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://github.com/gdi3d/calenvite#readme">Docs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/cube-svgrepo-com.svg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Calenvite</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">A tiny Microservice for sending emails and/or calendar invitations to users</p>
+            </div>
+        </header>
+        
+        <!-- About Section-->
+        <section class="page-section bg-secondary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Features</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-md-12 fs-4 text-center"><p class="lead">
+                        <ul class="list-unstyled">
+                            <li>Send emails using your Mailgun API credentials.</li>
+                            <li>Support for HTML and Plain Text emails.</li>
+                            <li>Send using a standar SMTP server.</li>
+                            <li>Calendar invitation with RSVP.</li>
+                            <li>Docker image is built using multistage and alpine image to keep it as small and secure as possible.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://github.com/gdi3d/calenvite/">
+                        <i class="fas fa-download me-2"></i>
+                        Github!
+                    </a>
+                    <a class="btn btn-xl btn-outline-light" href="https://github.com/gdi3d/calenvite#readme">
+                        <i class="fas fa-question-circle me-2"></i>
+                        Read the Docs!
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Calenvite 2021</small></div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
