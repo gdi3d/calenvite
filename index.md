@@ -1,5 +1,3 @@
-<meta property="og:image" content="https://gdi3d.github.io/calenvite/calenvite-social-share.jpg" />
-
 # Calenvite
 
 A simple microservice designed in [GO](https://golang.org/) using [Echo Microframework](https://echo.labstack.com/) for sending emails and/or calendar invitations to users.
