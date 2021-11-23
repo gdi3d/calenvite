@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
-title: Invite Users and Send Calendar Events
+title: Microservice for Invite Users and Send Calendar Events
 tagline: A tiny Microservice for sending emails and/or calendar invitations to users
+image: https://github.com/gdi3d/calenvite/raw/gh-pages/calenvite-social-share.jpg
 google_analytics: "UA-64542072-1"
