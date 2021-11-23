@@ -1,8 +1,0 @@
-site_name: Calenvite
-theme: readthedocs
-docs_dir: 'docs'
-repo_url: https://github.com/gdi3d/calenvite
-site_url: https://gdi3d.github.io/calenvite
-
-nav:
-  - Home: index.md
