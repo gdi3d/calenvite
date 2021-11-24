@@ -96,11 +96,11 @@ services:
 
 # API Docs
 
-## Healtcheck Endpoint
+## Healthcheck Endpoint
 
 A healthcheck endpoint to test if the service is up and running and a valid configuration is present.
 
-*Note: This healtcheck is only going to check that the environment vars are defined. It will not check if the credentials are valid or not*
+*Note: This healthcheck is only going to check that the environment vars are defined. It will not check if the credentials are valid or not*
 
 ### URL
 
@@ -133,8 +133,6 @@ Vary: Accept-Encoding
     "message": "Internal Server Error"
 }
 ```
-
-
 
 ## Invite Endpoint
 
